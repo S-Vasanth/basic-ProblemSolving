@@ -11,4 +11,4 @@ function revNum(num){
     }
     console.log(rev)   
 }
-revNum(893)
+revNum(8767)
