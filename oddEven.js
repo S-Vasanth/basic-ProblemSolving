@@ -8,6 +8,6 @@ for(var i=1;i<=num;i++){
         odd.push(i)
     }  
 }
-console.log(even)
-console.log(odd)
+console.log("even:"+even)
+console.log("odd:"+odd)
 
