@@ -18,6 +18,5 @@ function binarysearch(arr,num){
     }
   
 }
-
 console.log(binarysearch([3,4,6,7,8,10,22],22))
 

@@ -9,7 +9,7 @@ function duplicateZeros(arr) {
       if (arr.length == output.length) break;
     }
   }
-
+  
   console.log(output);
 }
 

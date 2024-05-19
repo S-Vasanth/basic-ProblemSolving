@@ -12,7 +12,7 @@ function splitAdd(arr) {
     arr[i] = arr[i] * 3;
   }
   for (let j = 0; j < arr.length; j++) {
-    if (arr[j] > 10) {
+    if (arr[j] >= 10) {
       output.push(sumDigit(arr[j]));
     } else {
       output.push(arr[j]);

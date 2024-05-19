@@ -14,7 +14,9 @@ function selectionSort(arr){
             }
         }
         swap(i,start,arr)
+        console.log(arr)
     }
+    console.log("----------")
   console.log(arr)
 }
-selectionSort([67,98,55,11,90,76])
+selectionSort([7,4,10,8,3,1])

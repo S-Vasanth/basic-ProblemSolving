@@ -11,11 +11,11 @@ function diffBetweenClosestEle(arr) {
       pos = i;
     }
   }
-
+  console.log(diff)
   return pos != null
     ? `the closest numbers are ${arr[pos]},${
         arr[pos + 1]
       } differance is ${diff} `
     : -1;
 }
-console.log(diffBetweenClosestEle([5, 9,8]));
+console.log(diffBetweenClosestEle([1,2,5,7,12]));
