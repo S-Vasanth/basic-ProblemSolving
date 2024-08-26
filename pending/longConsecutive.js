@@ -1,7 +1,7 @@
 var longestConsecutive = function(nums) {
     
     let set = new Set(nums)   //initializing a blank set
-  
+   console.log(set)
     let maxCount = 0   //maintain a maximum count value
     for(let ele of nums){  //again loop over nums array
         if(!set.has(ele-1)){  //check if a element is a starting element of the sequence

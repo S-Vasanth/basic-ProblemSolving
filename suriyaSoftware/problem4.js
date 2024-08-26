@@ -7,8 +7,8 @@ function revNum(arr) {
   console.log(mid);
   for (let i = 0; i < mid; i++) {
     let temp = arr[i];
-    arr[i] = arr[n] ;
-    arr[n] = temp;
+    arr[i] = arr[n]*i ;
+    arr[n] = temp*n;
     n--;
   }
 

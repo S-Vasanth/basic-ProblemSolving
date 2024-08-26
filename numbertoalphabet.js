@@ -1,4 +1,4 @@
-function numtoalpha(str){
+function numtoalpha1(str){
     let output=''
     let ele='';
     for(let i=0;i<str.length;i++){
@@ -16,7 +16,7 @@ function numtoalpha(str){
     console.log(output)
 
 }
-numtoalpha('a3b2c4')
+numtoalpha1('a3b2c4')
 //aaabbcccc
 
 

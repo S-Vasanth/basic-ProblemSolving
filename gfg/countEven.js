@@ -32,6 +32,7 @@ while(temp>0){
     }
     temp=Math.floor(temp/10)
 }
+console.log("------------")
 console.log(count)
 }
 countEven(125)
