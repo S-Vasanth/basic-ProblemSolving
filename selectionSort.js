@@ -1,20 +1,22 @@
-function swap(arr,i,j){
-    var temp=arr[i]
-    arr[i]=arr[j]
-    arr[j]=temp
+function swap(i,start,arr){
+    let temp=arr[i]
+    arr[i]=arr[start]
+    arr[start]=temp
 }
+
 
 function selectionSort(arr){
     for(let i=0;i<arr.length-1;i++){
-    
-        for(let j=i+1;j<arr.length;j++){
-            if(arr[j]<arr[i]){
-               swap(arr,i,j)
+        let start=i
+        for(let j=i+1;j<arr.length;j++){     
+            if(arr[j]<arr[start]){
+                start=j
             }
-            console.log(arr)
         }
-        console.log("---------------")
-    } 
-    return arr
+        swap(i,start,arr)
+        console.log(arr)
+    }
+    console.log("----------")
+  console.log(arr)
 }
-console.log(selectionSort([64,25,12,22,11])) 
+selectionSort([7,4,10,8,3,1])

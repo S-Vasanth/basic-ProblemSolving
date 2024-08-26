@@ -7,8 +7,9 @@ function twoSum(arr, target) {
     }
     dict[ele] = i;
   }
+
 }
-console.log(twoSum([4, 0, 6, 2, 8], 8));
+console.log(twoSum([4, 0, 6, 2,8, 8], 8))
 
 // let dict = {};
 // for (let i = 0; i < arr.length; i++) {

@@ -5,5 +5,5 @@ for(var i=0;i<arr.length;i++){
         new_arr.push(arr[i])
     }
  }
-console.log(new_arr)
+console.log(new_arr)//1,3,4,5,6,7
 

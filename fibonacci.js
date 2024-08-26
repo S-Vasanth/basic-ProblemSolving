@@ -1,10 +1,10 @@
-var num=10
-var first=0
-var second=1
+let first = 0;
+let second = 1;
 
-for(i=0;i<10;i++){
-   console.log(first)
-   var temp=first
-   first=second
-   second=temp+second
+for (let i = 2; i < 10; i++) {
+  console.log(first)
+  let temp=first
+  first=second
+  second=temp+second
 }
+

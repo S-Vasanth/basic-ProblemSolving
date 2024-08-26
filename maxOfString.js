@@ -17,7 +17,7 @@ function maxOfString(string) {
       maxChar = char;
     }
   }
-
+   console.log(dict)
   return `${maxChar} is occur ${max} times`;
 }
 
